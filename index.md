@@ -48,7 +48,7 @@ Our current project includes research on timeseries dynamics based on machine le
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/rpi.jpg"
   link="projects"
   title="Current Projects"
   flip=true
