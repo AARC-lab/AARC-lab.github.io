@@ -27,7 +27,7 @@ header a {
 }
 
 .logo {
-  height: 120px;
+  height: 240px;
 }
 
 .logo > * {
@@ -50,7 +50,7 @@ header a {
 }
 
 .subtitle {
-  opacity: 0.65;
+  opacity: 1;
   font-weight: var(--thin);
 }
 
@@ -128,7 +128,7 @@ header[data-big] .home {
   flex-grow: 0;
 }
 header[data-big] .logo {
-  height: 240px;
+  height: 300px;
 }
 header[data-big] .title-text {
   flex-direction: column;
