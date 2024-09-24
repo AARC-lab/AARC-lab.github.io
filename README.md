@@ -1,5 +1,5 @@
 
-# AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# AARC-lab
 
 Visit **[aarc-lab.github.io](https://aarc-lab.github.io)** 🚀
 
