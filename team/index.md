@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our researchers team consists of PhD student researchers majoring in computer engineering and electrical engineering being advised by the principal investigator Dr. Rahul Bhadani, external collaborators, and industry partners.
 
 {% include section.html %}
 

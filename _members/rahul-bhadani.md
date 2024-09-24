@@ -1,20 +1,18 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
+name: Rahul Bhadani
+image: images/photo10.JPG
 role: pi
-affiliation: University of Colorado
+affiliation: The University of Alabama in Huntsville
 aliases:
-  - J. Smith
-  - J Smith
+  - R. Bhadani
+  - R Bhadani
+  - R. K. Bhadani
+  - R K Bhadani
+  - Rahul Kumar Bhadani
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://rahulbhadani.github.io/
+  orcid: 0000-0002-7403-6458
+  github: rahulbhadani
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Rahu Bhadani is a Professor of Electrical and Computer Engineering at UAH and a member of the CIRCLES consortium. His primary research interest is in transportation cyber-physical systems, and robotics where he uses tools from model-based design, ROS, statistical machine learning and signal processing to solve problems of societal concern. He received his MS in Optics, MS in Statistics, and PhD in Electrical and Computer Engineering from The University of Arizona.
