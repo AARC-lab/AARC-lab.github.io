@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-subtitle: 
-description: 
+title: AARC Lab
+subtitle: AI, Autonomy, Resilience, Control Lab
+description: University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab..com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  twitter: AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
-  youtube: AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab.
+  email: rahul.bhadani@uah.edu
+  orcid: 0000-0002-7403-6458
+  google-scholar: wykFPlYAAAAJ
+  github: AARC-lab
+  twitter: AARC-lab
+  youtube: AARC-lab
 
 ### jekyll settings
 
