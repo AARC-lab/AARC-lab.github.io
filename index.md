@@ -72,7 +72,7 @@ Our researchers team consists of PhD student researchers majoring in computer en
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/ieeevnc2018.jpg"
   link="team"
   title="Our Team"
   text=text
