@@ -10,7 +10,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Research at AARC Lab focuses on cyber-physical systems for connected world such as transportation and emerging communication technologies for resiliency, safety, and privacy using engineering principles.
 
 {%
   include button.html
@@ -27,7 +27,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Our Research"
+  title="Research at AARC Lab"
   text=text
 %}
 
