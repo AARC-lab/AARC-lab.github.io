@@ -2,7 +2,7 @@
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
-{% assign png = "images/AARC_Lab_Logo.png" | file_exists %}
+{% assign png = "images/AARC_Lab_Logo_inv.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = png | default: png | default: jpg | default: nil %}
 
