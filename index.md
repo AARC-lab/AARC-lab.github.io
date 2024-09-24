@@ -7,7 +7,6 @@
 
 {% include section.html %}
 
-## Highlights
 
 {% capture text %}
 
