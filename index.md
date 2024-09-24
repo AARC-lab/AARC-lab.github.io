@@ -1,7 +1,7 @@
 ---
 ---
 
-# AARC-labDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# AARC Lab at The University of Alabama in Huntsville
 
 
 
