@@ -33,7 +33,7 @@ Research at AARC Lab focuses on cyber-physical systems for connected world such 
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our current project includes research on timeseries dynamics based on machine learning for naturalistic driving data; and studying the foundation of digital twin for multi-agent connected vehicle simulation.
 
 {%
   include button.html
@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="projects"
-  title="Our Projects"
+  title="Current Projects"
   flip=true
   style="bare"
   text=text
@@ -58,8 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Our researchers team consists of PhD student researchers majoring in computer engineering and electrical engineering being advised by the principal investigator Dr. Rahul Bhadani, external collaborators, and industry partners.
 {%
   include button.html
   link="team"
