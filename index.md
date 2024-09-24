@@ -25,7 +25,7 @@ Research at AARC Lab focuses on cyber-physical systems for connected world such 
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/prius_gazebo.png"
   link="research"
   title="Research at AARC Lab"
   text=text
