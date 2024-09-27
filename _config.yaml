@@ -60,6 +60,7 @@ theme: null
 # sass settings
 sass:
   sass_dir: _styles
+  fonts_dir: fonts
 
 # force jekyll to include certain files/folders
 include:

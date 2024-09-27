@@ -58,12 +58,14 @@ header a {
 }
 
 .title {
-  font-size: var(--large);
+  font-size: var(--titlesize);
 }
 
 .subtitle {
   opacity: 1.0;
   font-weight: var(--thin);
+  font-family: var(--subtitle);
+  font-size: 40px; /* adjust the font size to your liking */
 }
 
 .nav-toggle {
@@ -157,10 +159,13 @@ header[data-big] {
   }
 
   .title {
-    font-size: var(--xxl);
+    font-size: var(--titlesize);
   }
 
   .subtitle {
-    font-size: var(--large);
+    font-size: var(--subtitlesize);
+    font-family: var(--subtitle);
+    // font-size: 40px; /* adjust the font size to your liking */
   }
+  
 }

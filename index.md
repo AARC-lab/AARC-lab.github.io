@@ -14,7 +14,7 @@ Research at AARC Lab focuses on cyber-physical systems for connected world such 
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -26,7 +26,7 @@ Research at AARC Lab focuses on cyber-physical systems for connected world such 
 {%
   include feature.html
   image="images/prius_gazebo.png"
-  link="research"
+  link="publications"
   title="Research at AARC Lab"
   text=text
 %}
@@ -37,7 +37,7 @@ Our current project includes research on timeseries dynamics based on machine le
 
 {%
   include button.html
-  link="projects"
+  link="research"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -49,7 +49,7 @@ Our current project includes research on timeseries dynamics based on machine le
 {%
   include feature.html
   image="images/rpi.jpg"
-  link="projects"
+  link="research"
   title="Current Projects"
   flip=true
   style="bare"

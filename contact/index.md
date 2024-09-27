@@ -7,8 +7,12 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Department of Electrical and Computer Engineering, The University of Alabama in Huntsville
-Huntsville, AL 3589
+
+
+<div style="text-align: center;">
+Department of Electrical and Computer Engineering, <br/>The University of Alabama in Huntsville
+Huntsville, AL 35899
+</div>
 
 {%
   include button.html

@@ -27,15 +27,18 @@
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Diphylleia", sans-serif;
+  --subtitle: "Barlow", sans-serif;
+  --heading: "Diphylleia", sans-serif;
+  --body: "Diphylleia", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
-  --large: 1.6rem;
-  --xl: 1.8rem;
-  --xxl: 2.0rem;
+  --large: 1.7rem;
+  --titlesize: 2.5rem;
+  --subtitlesize: 1.8rem;
+  --xl: 2.1rem;
+  --xxl: 2.4rem;
 
   // font weights
   --thin: 200;
