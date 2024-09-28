@@ -47,3 +47,378 @@
   repo: rahulbhadani/paper_DESTION_24_SystemC_GFL
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1109/wsc60868.2023.10408025
+  title: Modeling and Real-Time Simulation of Microgrid Components Using Systemc-AMS
+  authors:
+  - Rahul Bhadani
+  - Gabor Karsai
+  - Hao Tu
+  - Srdjan Lukic
+  publisher: 2023 Winter Simulation Conference (WSC)
+  date: '2023-12-10'
+  link: https://doi.org/g52cvt
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1364/oe.496792
+  title: Optimized receiver design for entanglement-assisted communication using BPSK
+  authors:
+  - Rahul Bhadani
+  - Ivan B. Djordjevic
+  publisher: Optics Express
+  date: '2023-11-08'
+  link: https://doi.org/g52cvx
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3576914.3587712
+  title: Analysis of a Runtime Data Sharing Architecture over LTE for a Heterogeneous
+    CAV Fleet
+  authors:
+  - Alex Richardson
+  - Matthew Walter Nice
+  - Matt Bunting
+  - Jonathan Lee
+  - Rahul Bhadani
+  - Daniel Work
+  - Jonathan Sprinkle
+  publisher: Proceedings of Cyber-Physical Systems and Internet of Things Week 2023
+  date: '2023-05-09'
+  link: https://doi.org/g52cv4
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3576914.3587711
+  title: Approaches for Synthesis and Deployment of Controller Models on Automated
+    Vehicles for Car-following in Mixed Autonomy
+  authors:
+  - Rahul Bhadani
+  - Matthew Bunting
+  - Matthew Nice
+  - Fangyu Wu
+  - Amaury Hayat
+  - Jonathan W. Lee
+  - Alexandre Bayen
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Dan Work
+  - Jonathan Sprinkle
+  publisher: Proceedings of Cyber-Physical Systems and Internet of Things Week 2023
+  date: '2023-05-09'
+  link: https://doi.org/g52cv8
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3576841.3589622
+  title: Parameter Estimation for Decoding Sensor Signals
+  authors:
+  - Matthew Nice
+  - Matthew Bunting
+  - Gergely Zachar
+  - Rahul Bhadani
+  - Paul Ngo
+  - Jonathan Lee
+  - Alexandre Bayen
+  - Dan Work
+  - Jonathan Sprinkle
+  publisher: Proceedings of the ACM/IEEE 14th International Conference on Cyber-Physical
+    Systems (with CPS-IoT Week 2023)
+  date: '2023-05-09'
+  link: https://doi.org/g52cwd
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/GENES14020506
+  title: Attention-Based Graph Neural Network for Label Propagation in Single-Cell
+    Omics
+  authors:
+  - Rahul Bhadani
+  - Zhuo Chen
+  - Lingling An
+  publisher: Genes
+  date: '2023-02-16'
+  link: https://doi.org/g52cwg
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/destion56136.2022.00016
+  title: Repeatable &amp; Scalable Multi-Vehicle Simulation with Offloaded Dynamics
+    using Federated Modeling
+  authors:
+  - Rahul Bhadani
+  - Jonathan Sprinkle
+  publisher: 2022 IEEE Workshop on Design Automation for CPS and IoT (DESTION)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwh
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/DI-CPS56137.2022.00013
+  title: Data from the Development Evolution of a Vehicle for Custom Control
+  authors:
+  - Matt Bunting
+  - Rahul Bhadani
+  - Matt Nice
+  - Safwan Elmadani
+  - Jonathan Sprinkle
+  publisher: 2022 2nd Workshop on Data-Driven and Intelligent Cyber-Physical Systems
+    for Smart Cities Workshop (DI-CPS)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwk
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICCPS54341.2022.00038
+  title: Model-based Design of NEMA-Compliant Dual-ring-barrier Traffic Signal Controller
+  authors:
+  - Rahul Bhadani
+  - Jonathan Sprinkle
+  - K. Larry Head
+  publisher: 2022 ACM/IEEE 13th International Conference on Cyber-Physical Systems
+    (ICCPS)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwp
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/FGENE.2022.847112
+  title: 'NISC: Neural Network-Imputation for Single-Cell RNA Sequencing and Cell
+    Type Clustering'
+  authors:
+  - Xiang Zhang
+  - Zhuo Chen
+  - Rahul Bhadani
+  - Siyang Cao
+  - Meng Lu
+  - Nicholas Lytal
+  - Yin Chen
+  - Lingling An
+  publisher: Frontiers in Genetics
+  date: '2022-05-03'
+  link: https://doi.org/g52cwr
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2022.3183093
+  title: Optimized Squeezing Operation for Phase-Shift Keying Quantum State Discrimination
+  authors:
+  - Rahul Bhadani
+  - Ivan B. Djordjevic
+  publisher: IEEE Access
+  date: '2022-01-01'
+  link: https://doi.org/g52cwv
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/DI-CPS56137.2022.00009
+  title: 'Strym: A Python Package for Real-time CAN Data Logging, Analysis and Visualization
+    to Work with USB-CAN Interface'
+  authors:
+  - Rahul Bhadani
+  - Matt Bunting
+  - Matthew Nice
+  - Ngoc Minh Tran
+  - Safwan Elmadani
+  - Dan Work
+  - Jonathan Sprinkle
+  publisher: 2022 2nd Workshop on Data-Driven and Intelligent Cyber-Physical Systems
+    for Smart Cities Workshop (DI-CPS)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwz
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TITS.2020.3000682
+  title: Are Commercially Implemented Adaptive Cruise Control Systems String Stable?
+  authors:
+  - George Gunter
+  - Derek Gloudemans
+  - Raphael E. Stern
+  - Sean McQuade
+  - Rahul Bhadani
+  - Matt Bunting
+  - Maria Laura Delle Monache
+  - Roman Lysecky
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Benedetto Piccoli
+  - Daniel B. Work
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2021-11-01'
+  link: https://doi.org/gg9cjq
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3450267.3450541
+  title: CAN coach
+  authors:
+  - Matthew Nice
+  - Safwan Elmadani
+  - Rahul Bhadani
+  - Matt Bunting
+  - Jonathan Sprinkle
+  - Dan Work
+  publisher: Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical
+    Systems
+  date: '2021-05-19'
+  link: https://doi.org/g52cw9
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICRA48506.2021.9561360
+  title: 'Reachability Analysis for FollowerStopper: Safety Analysis and Experimental
+    Results'
+  authors:
+  - Fang-Chieh Chou
+  - Marsalis Gibson
+  - Rahul Bhadani
+  - Alexandre M. Bayen
+  - Jonathan Sprinkle
+  publisher: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2021-05-30'
+  link: https://doi.org/g52cxk
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2020.3044086
+  title: Constellation Optimization for Phase-Shift Keying Coherent States With Displacement
+    Receiver to Maximize Mutual Information
+  authors:
+  - Rahul Bhadani
+  - Ivan B. Djordjevic
+  publisher: IEEE Access
+  date: '2020-01-01'
+  link: https://doi.org/g52cxn
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3302509.3314026
+  title: Real-time distance estimation and filtering of vehicle headways for smoothing
+    of traffic waves
+  authors:
+  - Rahul Bhadani
+  - Matthew Bunting
+  - Benjamin Seibold
+  - Raphael Stern
+  - Shumo Cui
+  - Jonathan Sprinkle
+  - Benedetto Piccoli
+  - Daniel B. Work
+  publisher: Proceedings of the 10th ACM/IEEE International Conference on Cyber-Physical
+    Systems
+  date: '2019-04-16'
+  link: https://doi.org/g52cx5
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3302509.3313325
+  title: String stability of commercial adaptive cruise control vehicles
+  authors:
+  - George Gunter
+  - Yanbing Wang
+  - Derek Gloudemans
+  - Raphael Stern
+  - Daniel Work
+  - Maria Laura Delle Monache
+  - Rahul Bhadani
+  - Matt Bunting
+  - Roman Lysecky
+  - Jonathan Sprinkle
+  - Benjamin Seibold
+  - Benedetto Piccoli
+  publisher: Proceedings of the 10th ACM/IEEE International Conference on Cyber-Physical
+    Systems
+  date: '2019-04-16'
+  link: https://doi.org/g52cx8
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/J.TRC.2018.12.012
+  title: 'Tracking vehicle trajectories and fuel rates in phantom traffic jams: Methodology
+    and data'
+  authors:
+  - Fangyu Wu
+  - Raphael E. Stern
+  - Shumo Cui
+  - Maria Laura Delle Monache
+  - Rahul Bhadani
+  - Matt Bunting
+  - Miles Churchill
+  - Nathaniel Hamilton
+  - "R\u2019mani Haulcy"
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Daniel B. Work
+  publisher: 'Transportation Research Part C: Emerging Technologies'
+  date: '2019-02-01'
+  link: https://doi.org/grdw7t
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/VNC.2018.8628408
+  title: A LiDAR Error Model for Cooperative Driving Simulations
+  authors:
+  - Michele Segata
+  - Renato Lo Cigno
+  - Rahul Kumar Bhadani
+  - Matthew Bunting
+  - Jonathan Sprinkle
+  publisher: 2018 IEEE Vehicular Networking Conference (VNC)
+  date: '2018-12-01'
+  link: https://doi.org/g52czc
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/CDC.2018.8619700
+  title: Dissipation of Emergent Traffic Waves in Stop-and-Go Traffic Using a Supervisory
+    Controller
+  authors:
+  - Rahul Kumar Bhadani
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Daniel Work
+  publisher: 2018 IEEE Conference on Decision and Control (CDC)
+  date: '2018-12-01'
+  link: https://doi.org/g52czf
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/J.TRC.2018.02.005
+  title: 'Dissipation of stop-and-go waves via control of autonomous vehicles: Field
+    experiments'
+  authors:
+  - Raphael E. Stern
+  - Shumo Cui
+  - Maria Laura Delle Monache
+  - Rahul Bhadani
+  - Matt Bunting
+  - Miles Churchill
+  - Nathaniel Hamilton
+  - "R\u2019mani Haulcy"
+  - Hannah Pohlmann
+  - Fangyu Wu
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Daniel B. Work
+  publisher: 'Transportation Research Part C: Emerging Technologies'
+  date: '2018-04-01'
+  link: https://doi.org/gfgrc5
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.4204/EPTCS.269.4
+  title: 'The CAT Vehicle Testbed: A Simulator with Hardware in the Loop for Autonomous
+    Vehicle Applications'
+  authors:
+  - Rahul Kumar Bhadani
+  - Jonathan Sprinkle
+  - Matthew Bunting
+  publisher: Electronic Proceedings in Theoretical Computer Science
+  date: '2018-04-10'
+  link: https://doi.org/g52czk
+  orcid: 0000-0002-7403-6458
+  plugin: sources.py
+  file: sources.yaml

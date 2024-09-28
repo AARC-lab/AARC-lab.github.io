@@ -2,7 +2,8 @@
 ---
 
 $logo-big: 390px;
-$logo-small: 50px;
+$logo-small: 100px;
+$logo-mid: 150px;
 $logo: 300px;
 $big-padding: 100px;
 $collapse: 700px;
@@ -134,14 +135,14 @@ header:not([data-big]) {
   }
 
   .logo {
-    height: $logo-small;
+    height: $logo-mid;
   }
   .title {
-    font-size: 15px;
+    font-size: 22px;
   }
 
   .subtitle {
-    font-size: 12px;
+    font-size: 18px;
     // font-size: 40px; /* adjust the font size to your liking */
   }
 }
@@ -181,4 +182,29 @@ header[data-big] {
     // font-size: 40px; /* adjust the font size to your liking */
   }
   
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 15px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  header[data-big] {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: $big-padding 20px;
+    .logo {
+      height: $logo-mid;
+    }
+    
+  }
+
 }
