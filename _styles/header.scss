@@ -2,7 +2,7 @@
 ---
 
 $logo-big: 390px;
-$logo-small: 150px;
+$logo-small: 50px;
 $logo: 300px;
 $big-padding: 100px;
 $collapse: 700px;
@@ -134,7 +134,7 @@ header:not([data-big]) {
   }
 
   .logo {
-    height: $logo;
+    height: $logo-small;
   }
   .title {
     font-size: 15px;
