@@ -1,174 +1,468 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1109/wsc60868.2023.10408025
+  title: Modeling and Real-Time Simulation of Microgrid Components Using Systemc-Ams
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Rahul Bhadani
+  - Gabor Karsai
+  - Hao Tu
+  - Srdjan Lukic
+  publisher: 2023 Winter Simulation Conference (WSC)
+  date: '2023-12-10'
+  link: https://doi.org/g52cvt
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1364/oe.496792
+  title: Optimized receiver design for entanglement-assisted communication using BPSK
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Rahul Bhadani
+  - Ivan B. Djordjevic
+  publisher: Optics Express
+  date: '2023-11-08'
+  link: https://doi.org/g52cvx
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1145/3576914.3587712
+  title: Analysis of a Runtime Data Sharing Architecture over LTE for a Heterogeneous
+    CAV Fleet
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Alex Richardson
+  - Matthew Walter Nice
+  - Matt Bunting
+  - Jonathan Lee
+  - Rahul Bhadani
+  - Daniel Work
+  - Jonathan Sprinkle
+  publisher: Proceedings of Cyber-Physical Systems and Internet of Things Week 2023
+  date: '2023-05-09'
+  link: https://doi.org/g52cv4
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1145/3576914.3587711
+  title: Approaches for Synthesis and Deployment of Controller Models on Automated
+    Vehicles for Car-following in Mixed Autonomy
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Rahul Bhadani
+  - Matthew Bunting
+  - Matthew Nice
+  - Fangyu Wu
+  - Amaury Hayat
+  - Jonathan W. Lee
+  - Alexandre Bayen
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Dan Work
+  - Jonathan Sprinkle
+  publisher: Proceedings of Cyber-Physical Systems and Internet of Things Week 2023
+  date: '2023-05-09'
+  link: https://doi.org/g52cv8
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1145/3576841.3589622
+  title: Parameter Estimation for Decoding Sensor Signals
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Matthew Nice
+  - Matthew Bunting
+  - Gergely Zachar
+  - Rahul Bhadani
+  - Paul Ngo
+  - Jonathan Lee
+  - Alexandre Bayen
+  - Dan Work
+  - Jonathan Sprinkle
+  publisher: Proceedings of the ACM/IEEE 14th International Conference on Cyber-Physical
+    Systems (with CPS-IoT Week 2023)
+  date: '2023-05-09'
+  link: https://doi.org/g52cwd
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.3390/GENES14020506
+  title: Attention-Based Graph Neural Network for Label Propagation in Single-Cell
+    Omics
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Rahul Bhadani
+  - Zhuo Chen
+  - Lingling An
+  publisher: Genes
+  date: '2023-02-16'
+  link: https://doi.org/g52cwg
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1109/destion56136.2022.00016
+  title: Repeatable &amp; Scalable Multi-Vehicle Simulation with Offloaded Dynamics
+    using Federated Modeling
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Rahul Bhadani
+  - Jonathan Sprinkle
+  publisher: 2022 IEEE Workshop on Design Automation for CPS and IoT (DESTION)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwh
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/DI-CPS56137.2022.00013
+  title: Data from the Development Evolution of a Vehicle for Custom Control
+  authors:
+  - Matt Bunting
+  - Rahul Bhadani
+  - Matt Nice
+  - Safwan Elmadani
+  - Jonathan Sprinkle
+  publisher: 2022 2nd Workshop on Data-Driven and Intelligent Cyber-Physical Systems
+    for Smart Cities Workshop (DI-CPS)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwk
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICCPS54341.2022.00038
+  title: Model-based Design of NEMA-Compliant Dual-ring-barrier Traffic Signal Controller
+  authors:
+  - Rahul Bhadani
+  - Jonathan Sprinkle
+  - K. Larry Head
+  publisher: 2022 ACM/IEEE 13th International Conference on Cyber-Physical Systems
+    (ICCPS)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwp
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FGENE.2022.847112
+  title: 'NISC: Neural Network-Imputation for Single-Cell RNA Sequencing and Cell
+    Type Clustering'
+  authors:
+  - Xiang Zhang
+  - Zhuo Chen
+  - Rahul Bhadani
+  - Siyang Cao
+  - Meng Lu
+  - Nicholas Lytal
+  - Yin Chen
+  - Lingling An
+  publisher: Frontiers in Genetics
+  date: '2022-05-03'
+  link: https://doi.org/g52cwr
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2022.3183093
+  title: Optimized Squeezing Operation for Phase-Shift Keying Quantum State Discrimination
+  authors:
+  - Rahul Bhadani
+  - Ivan B. Djordjevic
+  publisher: IEEE Access
+  date: '2022-01-01'
+  link: https://doi.org/g52cwv
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/DI-CPS56137.2022.00009
+  title: 'Strym: A Python Package for Real-time CAN Data Logging, Analysis and Visualization
+    to Work with USB-CAN Interface'
+  authors:
+  - Rahul Bhadani
+  - Matt Bunting
+  - Matthew Nice
+  - Ngoc Minh Tran
+  - Safwan Elmadani
+  - Dan Work
+  - Jonathan Sprinkle
+  publisher: 2022 2nd Workshop on Data-Driven and Intelligent Cyber-Physical Systems
+    for Smart Cities Workshop (DI-CPS)
+  date: '2022-05-01'
+  link: https://doi.org/g52cwz
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TITS.2020.3000682
+  title: Are Commercially Implemented Adaptive Cruise Control Systems String Stable?
+  authors:
+  - George Gunter
+  - Derek Gloudemans
+  - Raphael E. Stern
+  - Sean McQuade
+  - Rahul Bhadani
+  - Matt Bunting
+  - Maria Laura Delle Monache
+  - Roman Lysecky
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Benedetto Piccoli
+  - Daniel B. Work
+  publisher: IEEE Transactions on Intelligent Transportation Systems
+  date: '2021-11-01'
+  link: https://doi.org/gg9cjq
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:10467508
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:10467508
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:11599342
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:11599342
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3450267.3450541
+  title: CAN coach
+  authors:
+  - Matthew Nice
+  - Safwan Elmadani
+  - Rahul Bhadani
+  - Matt Bunting
+  - Jonathan Sprinkle
+  - Dan Work
+  publisher: Proceedings of the ACM/IEEE 12th International Conference on Cyber-Physical
+    Systems
+  date: '2021-05-19'
+  link: https://doi.org/g52cw9
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:13048503
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:13048503
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:10474328
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:10474328
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ICRA48506.2021.9561360
+  title: 'Reachability Analysis for FollowerStopper: Safety Analysis and Experimental
+    Results'
+  authors:
+  - Fang-Chieh Chou
+  - Marsalis Gibson
+  - Rahul Bhadani
+  - Alexandre M. Bayen
+  - Jonathan Sprinkle
+  publisher: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2021-05-30'
+  link: https://doi.org/g52cxk
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:11991945
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:11991945
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/ACCESS.2020.3044086
+  title: Constellation Optimization for Phase-Shift Keying Coherent States With Displacement
+    Receiver to Maximize Mutual Information
+  authors:
+  - Rahul Bhadani
+  - Ivan B. Djordjevic
+  publisher: IEEE Access
+  date: '2020-01-01'
+  link: https://doi.org/g52cxn
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:14041123
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:14041123
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:14697041
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:14697041
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000610542200072
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000610542200072
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:19394491
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:19394491
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3302509.3314026
+  title: Real-time distance estimation and filtering of vehicle headways for smoothing
+    of traffic waves
+  authors:
+  - Rahul Bhadani
+  - Matthew Bunting
+  - Benjamin Seibold
+  - Raphael Stern
+  - Shumo Cui
+  - Jonathan Sprinkle
+  - Benedetto Piccoli
+  - Daniel B. Work
+  publisher: Proceedings of the 10th ACM/IEEE International Conference on Cyber-Physical
+    Systems
+  date: '2019-04-16'
+  link: https://doi.org/g52cx5
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3302509.3313325
+  title: String stability of commercial adaptive cruise control vehicles
+  authors:
+  - George Gunter
+  - Yanbing Wang
+  - Derek Gloudemans
+  - Raphael Stern
+  - Daniel Work
+  - Maria Laura Delle Monache
+  - Rahul Bhadani
+  - Matt Bunting
+  - Roman Lysecky
+  - Jonathan Sprinkle
+  - Benjamin Seibold
+  - Benedetto Piccoli
+  publisher: Proceedings of the 10th ACM/IEEE International Conference on Cyber-Physical
+    Systems
+  date: '2019-04-16'
+  link: https://doi.org/g52cx8
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.TRC.2018.12.012
+  title: 'Tracking vehicle trajectories and fuel rates in phantom traffic jams: Methodology
+    and data'
+  authors:
+  - Fangyu Wu
+  - Raphael E. Stern
+  - Shumo Cui
+  - Maria Laura Delle Monache
+  - Rahul Bhadani
+  - Matt Bunting
+  - Miles Churchill
+  - Nathaniel Hamilton
+  - "R\u2019mani Haulcy"
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Daniel B. Work
+  publisher: 'Transportation Research Part C: Emerging Technologies'
+  date: '2019-02-01'
+  link: https://doi.org/grdw7t
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/VNC.2018.8628408
+  title: A LiDAR Error Model for Cooperative Driving Simulations
+  authors:
+  - Michele Segata
+  - Renato Lo Cigno
+  - Rahul Kumar Bhadani
+  - Matthew Bunting
+  - Jonathan Sprinkle
+  publisher: 2018 IEEE Vehicular Networking Conference (VNC)
+  date: '2018-12-01'
+  link: https://doi.org/g52czc
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/CDC.2018.8619700
+  title: Dissipation of Emergent Traffic Waves in Stop-and-Go Traffic Using a Supervisory
+    Controller
+  authors:
+  - Rahul Kumar Bhadani
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Daniel Work
+  publisher: 2018 IEEE Conference on Decision and Control (CDC)
+  date: '2018-12-01'
+  link: https://doi.org/g52czf
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.TRC.2018.02.005
+  title: 'Dissipation of stop-and-go waves via control of autonomous vehicles: Field
+    experiments'
+  authors:
+  - Raphael E. Stern
+  - Shumo Cui
+  - Maria Laura Delle Monache
+  - Rahul Bhadani
+  - Matt Bunting
+  - Miles Churchill
+  - Nathaniel Hamilton
+  - "R\u2019mani Haulcy"
+  - Hannah Pohlmann
+  - Fangyu Wu
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Jonathan Sprinkle
+  - Daniel B. Work
+  publisher: 'Transportation Research Part C: Emerging Technologies'
+  date: '2018-04-01'
+  link: https://doi.org/gfgrc5
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4204/EPTCS.269.4
+  title: 'The CAT Vehicle Testbed: A Simulator with Hardware in the Loop for Autonomous
+    Vehicle Applications'
+  authors:
+  - Rahul Kumar Bhadani
+  - Jonathan Sprinkle
+  - Matthew Bunting
+  publisher: Electronic Proceedings in Theoretical Computer Science
+  date: '2018-04-10'
+  link: https://doi.org/g52czk
+  orcid: 0000-0002-7403-6458
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:12877239
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:12877239
+  orcid: 0000-0002-7403-6458
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -184,9 +478,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -203,21 +494,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
