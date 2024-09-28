@@ -11,7 +11,7 @@ List of pre-prints, conference and journal papers.
 
 {% include section.html %}
 
-## Highlighted
+<!-- ## Highlighted -->
 
 <!-- {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
