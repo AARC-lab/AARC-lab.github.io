@@ -118,14 +118,13 @@ nav > a:hover {
   }
 }
 header:not([data-big]) .logo {
-  height: 150px;
+  height: 300px;
 }
 header:not([data-big]) .title {
-  font-size: var(--titlesize);
+  font-size: 15px;
 }
 header:not([data-big]) .subtitle {
-  font-size: var(--mobilesubtitlesize);
-  font-family: var(--mobilesubtitle);
+  font-size: 12px;
 }
 
 header[data-big] {
