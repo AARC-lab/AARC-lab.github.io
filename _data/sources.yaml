@@ -1,5 +1,14 @@
 - id: doi:10.1109/DESTION62938.2024.00016
+  title: Model-based Design Tool for Cyber-physical Power Systems using SystemC-AMS
+  authors:
+  - Rahul Bhadani
+  - Satyaki Banik
+  - Hao Tu
+  - Srdjan Lukic
+  - Gabor Karsai
   type: paper
+  publisher: 2024 IEEE Workshop on Design Automation for CPS and IoT (DESTION)
+  link: https://doi.org/g52tqr
   description: Cyber-physical power systems, such as grids, integrate computational and communication components with physical systems to introduce novel functions and improve resilience and fault tolerance. These systems employ computational components and real-time controllers to meet power demands. Microgrids, comprising interconnected components, energy resources within defined electrical boundaries, computational elements, and controllers, offer a solution for integrating renewable energy sources and ensuring resilience in electricity demand. Simulating these cyber-physical systems (CPS) is vital for grid design, as it facilitates the modeling and control of both continuous physical processes and discrete-time power converters and controllers. This paper presents a model-based design tool for simulating cyber-physical power systems, including microgrids, using SystemC-AMS. The adoption of SystemC-AMS enables physical modeling with both native components from the SystemC-AMS library and user-defined computational elements. We observe that SystemC-AMS can accurately produce the electromagnetic transient responses essential for analyzing grid stability. Additionally, we demonstrate the effectiveness of SystemC-AMS through use cases that simulate grid-following inverters. Comparing the SystemC-AMS implementation to one in Simulink reveals that SystemC-AMS offers a more rapid simulation. A design tool like this could support microgrid designers in making informed decisions about the selection of microgrid components prior to installation and deployment.
   date: 2024-05-13
   image: /images/AARC_Lab_Logo.png
