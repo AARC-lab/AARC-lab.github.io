@@ -134,15 +134,14 @@ header:not([data-big]) {
   }
 
   .logo {
-    height: $logo-small;
+    height: $logo;
   }
   .title {
-    font-size: var(--titlesize);
+    font-size: 15px;
   }
 
   .subtitle {
-    font-size: var(--mobilesubtitlesize);
-    font-family: var(--mobilesubtitle);
+    font-size: 12px;
     // font-size: 40px; /* adjust the font size to your liking */
   }
 }
