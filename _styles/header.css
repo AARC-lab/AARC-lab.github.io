@@ -117,6 +117,16 @@ nav > a:hover {
     width: 100%;
   }
 }
+header:not([data-big]) .logo {
+  height: 150px;
+}
+header:not([data-big]) .title {
+  font-size: var(--titlesize);
+}
+header:not([data-big]) .subtitle {
+  font-size: var(--mobilesubtitlesize);
+  font-family: var(--mobilesubtitle);
+}
 
 header[data-big] {
   justify-content: center;
