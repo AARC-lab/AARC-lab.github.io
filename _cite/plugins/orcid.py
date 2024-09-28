@@ -75,6 +75,10 @@ def main(entry):
             # get title
             title = first(lambda s: get_safe(s, "title.title.value", ""))
 
+            # Skip entry if title contains "Web of Science"
+            if title and "Web of Science" in title:
+                continue
+
             # get publisher
             publisher = first(lambda s: get_safe(s, "journal-title.value", ""))
 
