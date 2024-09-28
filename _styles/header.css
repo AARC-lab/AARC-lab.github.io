@@ -118,13 +118,13 @@ nav > a:hover {
   }
 }
 header:not([data-big]) .logo {
-  height: 50px;
+  height: 150px;
 }
 header:not([data-big]) .title {
-  font-size: 15px;
+  font-size: 22px;
 }
 header:not([data-big]) .subtitle {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 header[data-big] {
@@ -152,6 +152,28 @@ header[data-big] .title {
 header[data-big] .subtitle {
   font-size: var(--subtitlesize);
   font-family: var(--subtitle);
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 15px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+  header[data-big] {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 20px;
+  }
+  header[data-big] .logo {
+    height: 150px;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
