@@ -2,6 +2,7 @@
 ---
 
 $logo-big: 390px;
+$logo-small: 150px;
 $logo: 300px;
 $big-padding: 100px;
 $collapse: 700px;
@@ -130,6 +131,19 @@ header:not([data-big]) {
       flex-direction: column;
       width: 100%;
     }
+  }
+
+  .logo {
+    height: $logo-small;
+  }
+  .title {
+    font-size: var(--titlesize);
+  }
+
+  .subtitle {
+    font-size: var(--mobilesubtitlesize);
+    font-family: var(--mobilesubtitle);
+    // font-size: 40px; /* adjust the font size to your liking */
   }
 }
 
