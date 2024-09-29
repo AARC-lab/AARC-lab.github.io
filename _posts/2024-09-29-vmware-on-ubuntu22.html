@@ -39,39 +39,47 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>John Doe | AARC Lab</title>
+<title>Installing VMWare Player on Ubuntu 22.04 LTS | AARC Lab</title>
 
 <link rel="icon" href="/images/AARC_Lab_Logo.png">
 
-<meta name="title" content="John Doe">
+<meta name="title" content="Installing VMWare Player on Ubuntu 22.04 LTS">
 <meta name="description" content="AI, Autonomy, Resilience, Control Lab. University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems">
 
-<meta property="og:title" content="John Doe">
+<meta property="og:title" content="Installing VMWare Player on Ubuntu 22.04 LTS">
 <meta property="og:site_title" content="AARC Lab">
 <meta property="og:description" content="AI, Autonomy, Resilience, Control Lab. University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems">
 <meta property="og:url" content="https://aarc-lab.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="John Doe">
+<meta property="twitter:title" content="Installing VMWare Player on Ubuntu 22.04 LTS">
 <meta property="twitter:description" content="AI, Autonomy, Resilience, Control Lab. University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems">
 <meta property="twitter:url" content="https://aarc-lab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta property="og:type" content="website">
+  <meta name="author" content="rahul-bhadani">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2024-09-29T06:06:30+00:00">
+  <meta property="article:published_time" content="">
+  <meta property="article:modified_time" content="2024-09-29T06:06:30+00:00">
+  <meta name="revised" content="2024-09-29T06:06:30+00:00">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "WebSite",
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "Installing VMWare Player on Ubuntu 22.04 LTS" },
+      "datePublished": "",
+      "dateModified": "2024-09-29T06:06:30+00:00",
     
-    "name": "John Doe",
+    "name": "Installing VMWare Player on Ubuntu 22.04 LTS",
     "description": "AI, Autonomy, Resilience, Control Lab. University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems",
-    "headline": "John Doe",
+    "headline": "Installing VMWare Player on Ubuntu 22.04 LTS",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/AARC_Lab_Logo.png" }
@@ -278,6 +286,8 @@
     <link href="/_styles/util.css" rel="stylesheet">
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -351,7 +361,7 @@
       
     
       
-        <a href="/research/" data-tooltip="Software, datasets, and more">
+        <a href="/research/" data-tooltip="Research Projects, Software, Dataset, and More">
           Research
         </a>
       
@@ -363,7 +373,7 @@
       
     
       
-        <a href="/blog/" data-tooltip="Musings and miscellany">
+        <a href="/blog/" data-tooltip="Musings, news, and tutorials">
           Blog
         </a>
       
@@ -395,79 +405,114 @@
   
 
   <section class="background" data-size="page">
-    <div class="float">
-  
-<div class="portrait-wrapper">
-  <a class="portrait" data-style="" aria-label="John Doe">
-    
-      <i class="icon fa-solid fa-graduation-cap"></i>
-    
+    <p>In 2024, VMware made some significant changes to its product lineup. VMware Workstation Player and VMware Fusion Player were discontinued. However, if you are still looking to download VMWare Player, there is still a way to do that.</p>
 
-    <img src="/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<p>In this tutorial, I will walk you through how to download VMWare Player. This tutorial is based on software packages available to download from https://softwareupdate.vmware.com/cds/vmw-desktop/player/ at the time of writing. I have saved a version of VMWare Player 17.5.1 on https://github.com/rahulbhadani/medium.com/releases/tag/VMWarePlayer17.5.1 in case Broadcomm decided to purge the webpage.</p>
 
-    
-      <span class="portrait-name">
-        John Doe
-      </span>
-    
+<p>Once you download, VMWare Player 17.5.1 zip file, extract it and run the following inside the extracted folder:</p>
 
-    
-      <span class="portrait-description">
-        PhD Student
-      </span>
-    
+<p><code>
+sudo bash VMware-Player-17.5.1-23298084.x86_64.bundle
+</code></p>
 
-    
-  </a>
-</div>
+<p>It will install the player, however, you might encounter an error:</p>
 
-<div>
-  
-    
-    
-    
+<p><img src="/images/error.png" alt="Alt text"></p>
 
+<p>In order to rectify this error, follow the guideline below:
+<code>
+git clone https://github.com/mkubecek/vmware-host-modules
+cd vmware-host-modules
+git switch workstation-17.5.1
+make
+sudo make install
+</code></p>
 
+<p>This was taken from https://community.broadcom.com/vmware-cloud-foundation/discussion/ubuntu-22044-lts-module-compile-fails. The above github repository for the branch 17.5.1 also been stored in https://github.com/rahulbhadani/medium.com/releases/tag/VMWarePlayer17.5.1.</p>
 
-  <div class="button-wrapper">
-    <a class="button" href="https://github.com/john-doe" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-        <span>GitHub</span>
-      
-    </a>
-  </div>
+<p>This will install some necessary packages required to fix the error shown previously.</p>
 
-<br>
-  
-</div>
+<p>Next, you will be able to virtualize your favorite OS, in this case, say another Ubuntu 20.04</p>
 
+<p>However, after sucessful virtualization, when you try to boot your virtual Ubuntu, you may encounter the following error:</p>
 
-</div>
+<p><img src="/images/error2.png" alt="Alt text"></p>
 
+<p>To solve this problem follow the steps below:</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p>In the command line,</p>
 
+<p><strong>Step 1:</strong></p>
 
+<p>type:</p>
 
+<p><code>
+vmware-modconfig --console --install-all
+</code></p>
 
+<p>In 6.9 kernel, the above method might give an error</p>
 
+<p><code>
+./arch/x86/include/asm/timex.h:12:24: error: implicit declaration of function ‘random_get_entropy_fallback’; did you mean ‘random_get_entropy’? [-Werror=implicit-function-declaration]
+   12 |                 return random\_get\_entropy\_fallback\();
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        random\_get\_entropy
+</code></p>
 
-<p class="center">
-  <a href="/research/?search=%22John%20Doe%22%20">
-    Search for John Doe's papers on the Research page
-  </a>
-</p>
+<p>To resolve that, I performed the following step:</p>
 
+<p><em>a.</em></p>
 
+<p><code>
+cd vmware-host-modules
+</code></p>
 
-<!--
-<p class="center">
-  <a href="/blog/?search=John%20Doe">
-    See John Doe's posts on the Blog page
-  </a>
-</p>
--->
+<p><em>b.</em></p>
+
+<p><code>
+sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/  
+</code></p>
+
+<p><em>c. Then do the following</em></p>
+
+<p><code>
+sudo vmware-modconfig --console --install-all
+</code></p>
+
+<p>The solution was proposed in https://www.linkedin.com/pulse/resolving-vmware-kernel-module-issues-ubuntu-2404-lts-vishal-ravi-xsfpc</p>
+
+<p><strong>Step 2:</strong></p>
+
+<p>then</p>
+
+<p><code>
+openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=VMware/"
+sudo mokutil --import MOK.der
+</code></p>
+
+<p>It may ask you to enter a password. Enter and do not forget that password.</p>
+
+<p>Then, reboot your machine.</p>
+
+<p>Upon rebooting, it might ask for the password that you had entered above. Provide that password.</p>
+
+<p>After successful reboot and login, open your terminal and enter the following commands:</p>
+
+<p><code>
+sudo /usr/src/linux-headers-`uname -r`/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmmon)</code></p>
+
+<p>sudo /usr/src/linux-headers-<code class="language-plaintext highlighter-rouge">uname -r</code>/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmnet)</p>
+
+<p>sudo modprobe -v vmmon</p>
+
+<p>sudo modprobe -v vmnet</p>
+
+<p>sudo vmware-networks –start
+&lt;/code&gt;</p>
+
+<p>Once it is down, now you can open your VMWare Player and boot your Virtual OS.</p>
+
+<p>Enjoy!</p>
   </section>
 
 

@@ -1,1 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aarc-lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aarc-lab.github.io/" rel="alternate" type="text/html" /><updated>2024-09-29T02:03:11+00:00</updated><id>https://aarc-lab.github.io/feed.xml</id><title type="html">AARC Lab</title><subtitle>University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems</subtitle><entry><title type="html">Example post 3</title><link href="https://aarc-lab.github.io/2023/02/23/example-post-3.html" rel="alternate" type="text/html" title="Example post 3" /><published>2023-02-23T00:00:00+00:00</published><updated>2024-09-29T02:01:17+00:00</updated><id>https://aarc-lab.github.io/2023/02/23/example-post-3</id><content type="html" xml:base="https://aarc-lab.github.io/2023/02/23/example-post-3.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>john-doe</name></author><category term="biology," /><category term="medicine" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://aarc-lab.github.io/images/photo.jpg" /><media:content medium="image" url="https://aarc-lab.github.io/images/photo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Example post 2</title><link href="https://aarc-lab.github.io/2021/09/30/example-post-2.html" rel="alternate" type="text/html" title="Example post 2" /><published>2021-09-30T00:00:00+00:00</published><updated>2024-09-29T02:01:17+00:00</updated><id>https://aarc-lab.github.io/2021/09/30/example-post-2</id><content type="html" xml:base="https://aarc-lab.github.io/2021/09/30/example-post-2.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>jane-smith</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry><entry><title type="html">Example post 1</title><link href="https://aarc-lab.github.io/2019/01/07/example-post-1.html" rel="alternate" type="text/html" title="Example post 1" /><published>2019-01-07T00:00:00+00:00</published><updated>2024-09-29T02:01:17+00:00</updated><id>https://aarc-lab.github.io/2019/01/07/example-post-1</id><content type="html" xml:base="https://aarc-lab.github.io/2019/01/07/example-post-1.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>]]></content><author><name>sarah-johnson</name></author><category term="biology" /><category term="medicine" /><category term="big data" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aarc-lab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aarc-lab.github.io/" rel="alternate" type="text/html" /><updated>2024-09-29T06:08:13+00:00</updated><id>https://aarc-lab.github.io/feed.xml</id><title type="html">AARC Lab</title><subtitle>University Research Lab focus on AI, Autonomy, Resilience, Control for Cyber-physical Systems</subtitle><entry><title type="html">Installing VMWare Player on Ubuntu 22.04 LTS</title><link href="https://aarc-lab.github.io/2024/09/29/vmware-on-ubuntu22.html" rel="alternate" type="text/html" title="Installing VMWare Player on Ubuntu 22.04 LTS" /><published>2024-09-29T00:00:00+00:00</published><updated>2024-09-29T06:06:30+00:00</updated><id>https://aarc-lab.github.io/2024/09/29/vmware-on-ubuntu22</id><content type="html" xml:base="https://aarc-lab.github.io/2024/09/29/vmware-on-ubuntu22.html"><![CDATA[<p>In 2024, VMware made some significant changes to its product lineup. VMware Workstation Player and VMware Fusion Player were discontinued. However, if you are still looking to download VMWare Player, there is still a way to do that.</p>
+
+<p>In this tutorial, I will walk you through how to download VMWare Player. This tutorial is based on software packages available to download from https://softwareupdate.vmware.com/cds/vmw-desktop/player/ at the time of writing. I have saved a version of VMWare Player 17.5.1 on https://github.com/rahulbhadani/medium.com/releases/tag/VMWarePlayer17.5.1 in case Broadcomm decided to purge the webpage.</p>
+
+<p>Once you download, VMWare Player 17.5.1 zip file, extract it and run the following inside the extracted folder:</p>
+
+<p><code>
+sudo bash VMware-Player-17.5.1-23298084.x86_64.bundle
+</code></p>
+
+<p>It will install the player, however, you might encounter an error:</p>
+
+<p><img src="/images/error.png" alt="Alt text" /></p>
+
+<p>In order to rectify this error, follow the guideline below:
+<code>
+git clone https://github.com/mkubecek/vmware-host-modules
+cd vmware-host-modules
+git switch workstation-17.5.1
+make
+sudo make install
+</code></p>
+
+<p>This was taken from https://community.broadcom.com/vmware-cloud-foundation/discussion/ubuntu-22044-lts-module-compile-fails. The above github repository for the branch 17.5.1 also been stored in https://github.com/rahulbhadani/medium.com/releases/tag/VMWarePlayer17.5.1.</p>
+
+<p>This will install some necessary packages required to fix the error shown previously.</p>
+
+<p>Next, you will be able to virtualize your favorite OS, in this case, say another Ubuntu 20.04</p>
+
+<p>However, after sucessful virtualization, when you try to boot your virtual Ubuntu, you may encounter the following error:</p>
+
+<p><img src="/images/error2.png" alt="Alt text" /></p>
+
+<p>To solve this problem follow the steps below:</p>
+
+<p>In the command line,</p>
+
+<p><strong>Step 1:</strong></p>
+
+<p>type:</p>
+
+<p><code>
+vmware-modconfig --console --install-all
+</code></p>
+
+<p>In 6.9 kernel, the above method might give an error</p>
+
+<p><code>
+./arch/x86/include/asm/timex.h:12:24: error: implicit declaration of function ‘random_get_entropy_fallback’; did you mean ‘random_get_entropy’? [-Werror=implicit-function-declaration]
+   12 |                 return random\_get\_entropy\_fallback\();
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                        random\_get\_entropy
+</code></p>
+
+<p>To resolve that, I performed the following step:</p>
+
+<p><em>a.</em></p>
+
+<p><code>
+cd vmware-host-modules
+</code></p>
+
+<p><em>b.</em></p>
+
+<p><code>
+sudo cp -v vmmon.tar vmnet.tar /usr/lib/vmware/modules/source/  
+</code></p>
+
+<p><em>c. Then do the following</em></p>
+
+<p><code>
+sudo vmware-modconfig --console --install-all
+</code></p>
+
+<p>The solution was proposed in https://www.linkedin.com/pulse/resolving-vmware-kernel-module-issues-ubuntu-2404-lts-vishal-ravi-xsfpc</p>
+
+<p><strong>Step 2:</strong></p>
+
+<p>then</p>
+
+<p><code>
+openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=VMware/"
+sudo mokutil --import MOK.der
+</code></p>
+
+<p>It may ask you to enter a password. Enter and do not forget that password.</p>
+
+<p>Then, reboot your machine.</p>
+
+<p>Upon rebooting, it might ask for the password that you had entered above. Provide that password.</p>
+
+<p>After successful reboot and login, open your terminal and enter the following commands:</p>
+
+<p><code>
+sudo /usr/src/linux-headers-`uname -r`/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmmon)</code></p>
+
+<p>sudo /usr/src/linux-headers-<code class="language-plaintext highlighter-rouge">uname -r</code>/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmnet)</p>
+
+<p>sudo modprobe -v vmmon</p>
+
+<p>sudo modprobe -v vmnet</p>
+
+<p>sudo vmware-networks –start
+&lt;/code&gt;</p>
+
+<p>Once it is down, now you can open your VMWare Player and boot your Virtual OS.</p>
+
+<p>Enjoy!</p>]]></content><author><name>rahul-bhadani</name></author><category term="linux" /><category term="vmware" /><category term="ubuntu" /><summary type="html"><![CDATA[In 2024, VMware made some significant changes to its product lineup. VMware Workstation Player and VMware Fusion Player were discontinued. However, if you are still looking to download VMWare Player, there is still a way to do that.]]></summary></entry></feed>

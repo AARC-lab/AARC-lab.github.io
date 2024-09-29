@@ -162,8 +162,8 @@ header[data-big] .subtitle {
     font-size: 10px;
   }
   .logo {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
   }
   header[data-big] {
     justify-content: center;
