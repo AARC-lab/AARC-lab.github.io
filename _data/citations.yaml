@@ -88,14 +88,42 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1364/oe.496792
-  title: Optimized receiver design for entanglement-assisted communication using BPSK
+  title: Optimized Receiver Design for Entanglement-assisted Communication using BPSK
   authors:
   - Rahul Bhadani
   - Ivan B. Djordjevic
   publisher: Optics Express
   date: '2023-11-08'
   link: https://doi.org/g52cvx
+  type: journal
+  description: The use of pre-shared entanglement in entanglement-assisted communication
+    offers a superior alternative to classical communication, especially in the photon-starved
+    regime and highly noisy environments. In this paper, we analyze the performance
+    of several low-complexity receivers that use optical parametric amplifiers. The
+    simulations demonstrate that receivers employing an entanglement-assisted scheme
+    with phase-shift-keying modulation can outperform classical capacities. We present
+    a 2x2 optical hybrid receiver for entanglement-assisted communication and show
+    that it has a roughly 10% lower error probability compared to previously proposed
+    optical parametric amplifier-based receivers for more than 10 modes. However,
+    the capacity of the optical parametric amplifier-based receiver exceeds the Holevo
+    capacity and the capacities of the optical phase conjugate receiver and 2x2 optical
+    hybrid receiver in the case of a single mode. The numerical findings indicate
+    that surpassing the Holevo and Homodyne capacities does not require a large number
+    of signal-idler modes. Furthermore, we find that using unequal priors for BPSK
+    provides roughly three times the information rate advantage over equal priors.
   orcid: 0000-0002-7403-6458
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+  - type: paper
+    link: https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-24-39765&id=542310
+  - type: download
+    icon: fas fa-download
+    text: Download
+    link: /_papers/pdfs/Optica_Nov_2023.pdf
+  tags:
+  - optics
+  - quantum information science
+  - quantum communication
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3576914.3587712
@@ -112,7 +140,34 @@
   publisher: Proceedings of Cyber-Physical Systems and Internet of Things Week 2023
   date: '2023-05-09'
   link: https://doi.org/g52cv4
+  type: paper
+  description: This paper describes a lightweight runtime architecture for telemetry,
+    communication, and control of cars deployed with advanced driver assistance systems
+    where a human is in the loop with the car, via an LTE connection. The system architecture
+    supports both local control decisions based on car sensors and safety algorithms
+    as well as high-level input from external systems that may provide insight into
+    traffic state ahead of sensor data. Implementation of the architecture is done
+    in ROS and depends on open-source software packages for runtime decoding of information
+    from the vehicle's controller area network (CAN) and integration of GPS data from
+    accompanying sensors. The contribution of the paper is to describe the overall
+    architecture, the data it can communicate to other systems, performance of the
+    system at runtime, and challenges faced when deploying the architecture across
+    a heterogeneous fleet. Preliminary results from analysis of test data will provide
+    insights into whether the use of high-latency communication can be effective for
+    societal-scale intelligent transportation systems when applied in future scenarios.
   orcid: 0000-0002-7403-6458
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3576914.3587712
+  - type: download
+    icon: fas fa-download
+    text: Download
+    link: /_papers/pdfs/Optica_Nov_2023.pdf
+  tags:
+  - cyber physical systems
+  - transportation
+  - autonomous vehicles
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3576914.3587711
@@ -133,7 +188,43 @@
   publisher: Proceedings of Cyber-Physical Systems and Internet of Things Week 2023
   date: '2023-05-09'
   link: https://doi.org/g52cv8
+  type: paper
+  description: "This paper describes the software design patterns and vehicle interfaces\
+    \ that were employed to transition vehicle controllers from simulation environments\
+    \ to open-road field experiments. The approach relies on a life cycle that utilizes\
+    \ model-based design and code generation, along with agile software development,\
+    \ and both software- and hardware-in-the-loop testing, with additional safety\
+    \ margins. Autonomous designs should consider the dynamics of mixed autonomy in\
+    \ traffic to safely operate among humans. The software that provides a vehicle\u2019\
+    s behavior intelligence is often developed through simulation, which may have\
+    \ a mismatch between dynamics, or as a result of a reinforcement learning workflow,\
+    \ which may be a black box with challenges to analyze. In each of these cases,\
+    \ it is important to have research interfaces that provide strongly typed data\
+    \ streams accessible to researchers who are not software experts while continuing\
+    \ to satisfy safety and liveness constraints. This paper describes how we design\
+    \ the hardware platform interfaces and software design process for a mixed autonomy\
+    \ traffic experiment with a leader-follower scenario. Controller synthesis for\
+    \ these vehicles requires clearly articulated vehicle interfaces and software\
+    \ design patterns for successful onboard deployment. Testing strategies for such\
+    \ controllers are also described before algorithms are transitioned to full-scale\
+    \ field experiments with safety operators for the vehicles. Testing strategies\
+    \ include software-in-the-loop simulation testing, hardware-in-the-loop simulation,\
+    \ ghost-car testing, and read-only testing in live traffic. With our approach,\
+    \ we were not only able to validate our controller synthesized in scripts and\
+    \ simulation, but also able to scale deployment to multiple vehicles."
   orcid: 0000-0002-7403-6458
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3576914.3587711
+  - type: download
+    icon: fas fa-download
+    text: Download
+    link: /_papers/pdfs/CPSIoTWeek_Controller_Deployment_2023.pdf
+  tags:
+  - cyber physical systems
+  - transportation
+  - autonomous vehicles
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3576841.3589622
@@ -152,7 +243,29 @@
     Systems (with CPS-IoT Week 2023)
   date: '2023-05-09'
   link: https://doi.org/g52cwd
+  type: paper
+  description: This paper introduces a parameter estimation approach for decoding
+    digital sensor signals in a cyber-physical system. For unknown or not fully characterized
+    digital sensor data, it can be difficult to decipher a desired signal from background
+    or noise. In a cyber-physical system with networked sensors, we can leverage knowledge
+    of the physical system to inform the decoding of the digital signals. This work
+    in progress is a case study on deciphering commercial vehicle on-board sensor
+    networks that communicate through the Controller Area Network (CAN). By understanding
+    the stock vehicle sensor network, a vehicle can be extended into a scalable research
+    platform with minimal instrumentation. Our challenge was to localize desired sensor
+    signals encoded in network traffic that included other sensor data, control messages,
+    as well as encoding and security overhead. Due to the vehicle's unknown sensor
+    network, our approach developed methods to efficiently analyze and identify key
+    signals despite the large state-space for potential signal embeddings. The contribution
+    of this work-in-progress is a formal approach to deciphering pertinent signals
+    uncharacterized cyber-physical system, with a case study in using this approach
+    in vehicle on-board sensor networks. We share a code repository with analysis
+    tools for analyzing digital signals.
   orcid: 0000-0002-7403-6458
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+  - type: paper
+    link: https://dl.acm.org/doi/10.1145/3576841.3589622
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.3390/GENES14020506
@@ -162,10 +275,29 @@
   - Rahul Bhadani
   - Zhuo Chen
   - Lingling An
-  publisher: Genes
+  publisher: MDPI Genes
   date: '2023-02-16'
   link: https://doi.org/g52cwg
+  type: journal
+  description: "Single-cell data analysis has been at forefront of development in\
+    \ biology and medicine since sequencing data have been made available. An important\
+    \ challenge in single-cell data analysis is the identification of cell types.\
+    \ Several methods have been proposed for cell-type identification. However, these\
+    \ methods do not capture the higher-order topological relationship between different\
+    \ samples. In this work, we propose an attention-based graph neural network that\
+    \ captures the higher-order topological relationship between different samples\
+    \ and performs transductive learning for predicting cell types. The evaluation\
+    \ of our method on both simulation and publicly available datasets demonstrates\
+    \ the superiority of our method, scAGN, in terms of prediction accuracy. In addition,\
+    \ our method works best for highly sparse datasets in terms of F1 score, precision\
+    \ score, recall score, and Matthew\u2019s correlation coefficients as well. Further,\
+    \ our method\u2019s runtime complexity is consistently faster compared to other\
+    \ methods."
   orcid: 0000-0002-7403-6458
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+  - type: paper
+    link: https://www.mdpi.com/2073-4425/14/2/506
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/destion56136.2022.00016
@@ -277,7 +409,7 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1145/3450267.3450541
-  title: CAN coach
+  title: 'CAN coach: vehicular control through human cyber-physical systems'
   authors:
   - Matthew Nice
   - Safwan Elmadani

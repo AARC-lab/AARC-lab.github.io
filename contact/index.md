@@ -45,36 +45,22 @@ Huntsville, AL 35899
 
 {% endcapture %}
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
+{% include cols.html col1=col1%}
 
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+The University of Alabama in Huntsville
+301 Sparkman Drive
+Huntsville, AL 35899
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+256.824.1000
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+<a href="https://www.uah.edu/contact">https://www.uah.edu/contact</a>
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

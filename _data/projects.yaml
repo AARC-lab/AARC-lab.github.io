@@ -1,12 +1,14 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
+- title: SpatioTemporal Time Series Dynamics using Machine Learning
+  subtitle: Developing novel machine learning models to analyze spatiotemporal time series data and explore the hidden dynamics
+  group: current
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: We focus on analysis of spatiotemporal timeseries in transportation and electric grid uncovering hidden dynamics of the underlying process, detection of unique behavior of systems from timeseries data, anomaly detection, and predictive modeling using statistical machine learning. The project aims to enhance the efficiency, reliability, and safety of critical infrastructures through advanced data analytics and machine learning techniques.
   tags:
-    - resource
+    - current
+    - machine-learning
+    - timeseries
+    - dynamical-systems
+    - data-analysis
 
 - title: Cool Package
   subtitle: a subtitle
@@ -37,11 +39,15 @@
   tags:
     - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Strym
+  group: past
+  subtitle: A python package for real-time CAN data logging, analysis and visualization to work with USB-CAN Interface.
+  image: https://raw.githubusercontent.com/jmscslgroup/strym/refs/heads/master/strym_big.png
+  link: https://github.com/jmscslgroup/strym
+  description: Strym is a python package that provides APIs to interface with COMMA.AI panda for logging CAN data, analysis and visualization in real-time from supported modern vehicles such Toyota RAV4 and Honda Pilot.
+  repo: jmscslgroup/strym
   tags:
     - software
+    - python
+    - open-source
+    - data-analysis

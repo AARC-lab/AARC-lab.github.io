@@ -2,26 +2,25 @@
 title: Research
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Research Projects, Software, Dataset, and More
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our lab's research focuses on societal problems concerning cyber-physical systems, such as intelligent transportation, robotics, microgrid, and emerging communication technologies. This page provides a summary of current projects, past projects, open source tools, packages, and datasets.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="publication, resource, website, software, datasets " %}
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Featured
+## Current Projects
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+{% include list.html component="card" data="projects" filters="group: current" %}
 
 {% include section.html %}
 
-## More
+## Past Projects
 
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+{% include list.html component="card" data="projects" filters="group: past" style="small" %}
