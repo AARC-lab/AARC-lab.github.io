@@ -11,7 +11,7 @@
   link: https://doi.org/g52tqr
   description: Cyber-physical power systems, such as grids, integrate computational and communication components with physical systems to introduce novel functions and improve resilience and fault tolerance. These systems employ computational components and real-time controllers to meet power demands. Microgrids, comprising interconnected components, energy resources within defined electrical boundaries, computational elements, and controllers, offer a solution for integrating renewable energy sources and ensuring resilience in electricity demand. Simulating these cyber-physical systems (CPS) is vital for grid design, as it facilitates the modeling and control of both continuous physical processes and discrete-time power converters and controllers. This paper presents a model-based design tool for simulating cyber-physical power systems, including microgrids, using SystemC-AMS. The adoption of SystemC-AMS enables physical modeling with both native components from the SystemC-AMS library and user-defined computational elements. We observe that SystemC-AMS can accurately produce the electromagnetic transient responses essential for analyzing grid stability. Additionally, we demonstrate the effectiveness of SystemC-AMS through use cases that simulate grid-following inverters. Comparing the SystemC-AMS implementation to one in Simulink reveals that SystemC-AMS offers a more rapid simulation. A design tool like this could support microgrid designers in making informed decisions about the selection of microgrid components prior to installation and deployment.
   date: 2024-05-13
-  image: /images/AARC_Lab_Logo.png
+  image: /images/AARC_Lab_Logo_thumbnail.png
   buttons:
     - type: paper
       link: https://ieeexplore.ieee.org/abstract/document/10564823
@@ -24,6 +24,7 @@
     - cyber physical systems
     - collaboration
   repo: rahulbhadani/paper_DESTION_24_SystemC_GFL
+
 - id: doi:10.1109/wsc60868.2023.10408025
   title: Modeling and Real-Time Simulation of Microgrid Components Using Systemc-AMS
   authors:
@@ -31,10 +32,24 @@
   - Gabor Karsai
   - Hao Tu
   - Srdjan Lukic
+  type: paper
   publisher: 2023 Winter Simulation Conference (WSC)
   date: '2023-12-10'
   link: https://doi.org/g52cvt
+  description: Microgrids are localized power systems that can function independently or alongside the main grid. They consist of interconnected generators, energy storage, and loads that can be managed locally. Using SystemC-AMS, we demonstrate how microgrid components, including solar panels and converters, can be accurately modeled and simulated, along with their interactions. Real-time simulations are crucial for understanding microgrid behavior and optimizing components. This approach facilitates seamless integration with hardware prototypes and automation systems, supporting various development stages. Our study presents a best-case scenario for real-time simulation, assuming each loop takes less time than the simulation time step, with fallback to the previous value if data isn’t received in time. This article introduces the first known real-time simulation strategy using SystemC-AMS, enabling the real-time simulation of microgrid components and integration with external devices. The implementation adopts a model-based design approach, creating increasingly complex systems with grid components and controllers.
   orcid: 0000-0002-7403-6458
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+    - type: paper
+      link: https://ieeexplore.ieee.org/document/10408025
+    - type: download
+      icon: fas fa-download
+      text: Download
+      link: /_papers/pdfs/WSC_2023.pdf
+  tags:
+    - cyber physical systems
+    - collaboration
+
 - id: doi:10.1364/oe.496792
   title: Optimized receiver design for entanglement-assisted communication using BPSK
   authors:
