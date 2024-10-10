@@ -1,5 +1,61 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1109/TRO.2024.3463407
+  title: 'From Sim to Real: A Pipeline for Training and Deploying Traffic Smoothing
+    Cruise Controllers'
+  authors:
+  - "Nathan Lichtl\xE9"
+  - Eugene Vinitsky
+  - Matthew Nice
+  - Rahul Bhadani
+  - Matthew Bunting
+  - Fangyu Wu
+  - Benedetto Piccoli
+  - Benjamin Seibold
+  - Daniel B Work
+  - Jonathan W Lee
+  - Jonathan Sprinkle
+  - Alexandre M Bayen
+  publisher: IEEE Transactions on Robotics
+  date: '2024-05-13'
+  link: https://doi.org/10.1109/TRO.2024.3463407
+  type: journal
+  description: "Designing and validating controllers for connected and automated vehicles\
+    \ to enhance traffic flow presents significant challenges, from the complexity\
+    \ of replicating real-world stop-and-go traffic dynamics in simulation, to the\
+    \ intricacies involved in transitioning from simulation to actual deployment.\
+    \ In this work, we present a full pipeline from data collection to controller\
+    \ deployment. Specifically, we collect 772 km of driving data from the I-24 in\
+    \ Tennessee, and use it to build a one-lane simulator, placing simulated vehicles\
+    \ behind real-world trajectories. Using policy-gradient methods with an asymmetric\
+    \ critic, we improve fuel efficiency by over 10% when simulating congested scenarios.\
+    \ Our comprehensive approach includes reinforcement learning for controller training,\
+    \ software verification, hardware validation and setup, and navigating various\
+    \ sim-to-real challenges. Furthermore, we analyze the controller's behavior and\
+    \ wave-smoothing properties, and deploy it on four Toyota Rav4\u2019s in a real-world\
+    \ validation experiment on the I-24. Finally, we release the driving dataset (Nice\
+    \ et al., 2021), the simulator and the trained controller (Lichtl\xE9 et al.,\
+    \ 2022), to enable future benchmarking and controller design."
+  image: /images/AARC_Lab_Logo_thumbnail.png
+  buttons:
+  - type: paper
+    link: https://ieeexplore.ieee.org/abstract/document/10683987
+  - type: download
+    icon: fas fa-download
+    text: Download
+    link: /_papers/pdfs/Lichtle_TRO_2024.pdf
+  - type: source
+    icon: fab fa-github
+    text: GitHub
+    link: https://github.com/nathanlct/trajectory-training-icra
+  tags:
+  - cyber physical systems
+  - collaboration
+  - transportation
+  - autonomous vehicles
+  repo: nathanlct/trajectory-training-icra
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/DESTION62938.2024.00016
   title: Model-based Design Tool for Cyber-physical Power Systems using SystemC-AMS
   authors:
